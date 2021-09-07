@@ -1,5 +1,6 @@
 * {
   box-sizing:border-box;
+
 }
 html {
   height:100vh;
@@ -12,7 +13,13 @@ body {
   align-items:center;
   color:#10214e;
 }
+p:last-of-type{ 
+  color: blue;
+  font-size: large;
 
+}
+
+main {}
 article {
   width:50vw;
   max-width: 25em;
@@ -121,17 +128,25 @@ dd:nth-of-type(2){
   transform: translateY(1rem);
 }
 
-p { 
+
+P:first-of-type{
+
+color:green;
+ }
+
+p:last-child { 
+  color: red;
   margin:0
 }
 
 article > p {
   padding:3rem 2rem;
   margin-top: 0;
-  background:rgba(255,255,255, 0.5);
+  background:rgba(95, 57, 57, 0.5);
   text-align:center;
   border-radius: 0 0 1rem 1rem;
   width:100%;
+
 }
 
 /* expand content */
