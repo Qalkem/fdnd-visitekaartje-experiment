@@ -1,6 +1,7 @@
+
 const expandButton = document.querySelector('header button')
-expandButton.addEventListener('click', expand)
+expandButton. addEventListener('click', expand)
 
 function expand() {
-    document.body.classList.toggle('expand')
-}
+ document.body.classList.toggle('expand')
+} 

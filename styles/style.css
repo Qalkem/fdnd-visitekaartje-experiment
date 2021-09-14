@@ -6,51 +6,135 @@ html {
   height:100vh;
 }
 body {
-  height:100vh;
+  height: 0%;
+  width: -50%;
+  max: width -60%;
   font-family: open sans;
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#10214e;
+  color: rgb(233, 160, 160);
+  top: 1000px;
+  bottom: 50px;
+  
+
+}
+
+body:hover{
+  color: yellow ;
+  transition: 1s;
+ 
+  border-top: red;
 }
 p:last-of-type{ 
-  color: blue;
+  color: rgb(89, 0, 255);
   font-size: large;
+  border-top: #f31717;
+
 
 }
 
-main {}
+p.lucas{
+
+  width:10em;
+  height: -5px;
+  position: center;
+  top: 100px;
+}
+
+#pow{
+
+  width: 5px;
+  
+  
+
+
+}
+.hoi{
+  colour: rgb(22, 255, 22);
+  border-bottom: springgreen;
+  width: 40%;
+  padding: 2px 16 px;
+  
+}
+
+</div>
+
+@keyframes wallat {
+  from {trnasform: rate (90deg);
+}
+
+to{ transform: rotate(-45deg);
+
+}
+
+50%{ transform: rotate(36000deg) ;
+
+}
+}
+.wallat{
+animation: wallat 32s;
+animation-iteration-count: infinite;
+
+}
+
 article {
   width:50vw;
   max-width: 25em;
   min-width:20em;
+  margin-top: 80%;
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:flex-end;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
-  box-shadow:0 0 20px 20px rgba(0,0,0,.1);
-  border-radius:1rem;
+  background: rgb(212, 159, 12);
+  background: linear-gradient(0deg, rgb(226, 247, 108) 40%, #faf2ae 100%);
+  box-shadow:0 0 200px 200px rgba(250, 252, 159, 0.986);
+  border-radius: 10em;
   position: relative;
   transition:.25s;
+  border-bottom: springgreen;
+  border-color: chartreuse;
+  border-top-style: inset;
+  border-top-color: darkgray 16px  20px;
+
 }
 
+h1:hover {
+
+  colour: rgb(123, 145, 0);
+}
 header {
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
   justify-content:flex-end;
+  border-bottom: 3px solid;
+  width:-100%;
+}   
+
+.bod{
   
 }
-h1 {
-  margin:2rem 0 1rem;
-  color: rgba(0,239,255,1);
+
+span{
+ color: greenyellow ;
 }
+h1 {
+  margin: 2rem 0 1rem;
+  font-style: Arial;
+  color: #fff;
+  padding: 1rem 2rem 1rem;
+  border: 0.4rem solid #fff;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  animation: flicker 1.5s infinite alternate; 
+}
+
 button {
-  border:none;
-  position: absolute;
+  border:none ;
+  position: absolute ;
   right:1rem;
   top:1rem;
   width:2.5rem;
@@ -60,17 +144,22 @@ button {
   border-radius:50%;
   padding:.25rem;
   transition:.25s;
+  margin
+   
+
 }
 button:focus {
   outline:none;
-  background:#202592;
+  background:#000cf5;
+
+
 }
 button:focus svg {
-  stroke: rgba(0,239,255,1);
+  stroke: #1ce7f1;
 }
 
 svg {
-  stroke: #4e54c8;
+  stroke: #0606ff;
   position: absolute;
   top:calc(1.25rem - 12px);
   left:calc(1.25rem - 12px);
@@ -83,35 +172,37 @@ button svg:nth-of-type(2) {
 h2 {
   
 }
+
 img {
   width:10em;
   border-radius:10em;
-  border:5px solid #fff;
-  box-shadow:0 0 2px 2px rgba(0,0,0,.2);
-  position:relative;
-  top:2rem;
+  border:5px solid rgb(246, 255, 115);
+  box-shadow:0 0 5px 2px rgba(250, 255, 207, 0.993);
+  position:center;
   transition:.25s .15s;
 }
 dl {
-  width:100%;
-  background: rgb(255,255,255);
+  width:60%;
+  height: 70%;
+  background: rgb(194, 138, 34);
+  border: blue;
+  border:5px solid rgb(246, 255, 115);
+  box-shadow:0 0 2px 2px rgba(0,0,0,.2);
+  position:center;
+  transition:.25s .15s;
+  padding: 1em 2em;
   
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-    "html-dd css-dd js-dd"
-    "html-dt css-dt js-dt"
-    ;
+
   justify-items:center;
   align-items:start;
-  padding:5rem 0 3rem;
-  margin-top: -3rem;
-  margin-bottom: 0;
+  padding: 5rem 2 3rem;
+  margin-bottom: 4%;
   text-align: center;
 }
 dt{
   font-weight: bold;
-  border-top: 1px solid rgba(0,0,0,0.3);
+  font-family: ;
+  border-top: 1px solid #00ff2a(0,0,0,0.3);
   padding-top: .25rem;
   margin-top: .25rem;
 }
@@ -131,22 +222,43 @@ dd:nth-of-type(2){
 
 P:first-of-type{
 
-color:green;
+color : #ffff00 (255, 16, 235);
+width:40%;
+top:40%;
+
  }
 
-p:last-child { 
-  color: red;
-  margin:0
+p:hover { 
+ 
+color: violet;
+transition: 2s;
+transform: translate(0,-6px);
+-o-transition: 0ms;
 }
 
-article > p {
-  padding:3rem 2rem;
-  margin-top: 0;
-  background:rgba(95, 57, 57, 0.5);
-  text-align:center;
-  border-radius: 0 0 1rem 1rem;
-  width:100%;
 
+
+
+article > p {
+  padding:2rem 1rem;
+  background:rgba(18, 255, 215, 0.507);
+  text-align:center;
+  border-radius: 1 5 1rem 1rem;
+  width: -10%;
+  length:10%; 
+  padding: 10px 5px;
+  box-shadow:40x cornflowerblue;
+  
+  
+
+
+}
+.box-shadow{
+  background: rgb(252, 40, 0);
+  box-shadow: 40px 30px 80px 10px #f31717;
+  -webkit-box-shadow: 40px 30px 80px 10px #e02525;
+  width: 1500px;
+  height: 1500px;
 }
 
 /* expand content */
